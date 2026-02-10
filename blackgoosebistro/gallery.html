@@ -23,10 +23,39 @@
                 color: #d1633c;
                 font-size: 1em;
             }
+
+            footer {  
+                border-top: 1px solid turquoise;
+                text-align: center;
+                margin-top: 2em;
+            }
+
+            footer img {
+                width: 40px;
+                height: 40px;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            li {
+                display: inline;
+                margin: 0 15px;
+            }
         </style>
     </head>
     <body>
         <h1>Black Goose Bistro Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
         <p>Not is our food good, it's also good-looking! Our patrons often stop to admire our fare with a quick Instagram before digging in. We've collected a few of our favorite shots here.</p>
 
         <h2>Our Baked Goods</h2>
@@ -52,5 +81,18 @@
         <h2>Our Tabouleh Salad</h2>
         <a href="galleries/tabouleh.html"><img src="thumbnails/tabouleh-200.jpg" alt="close-up of tabouleh"></a>
         <p>Our tabouleh is made from fresh greens all locally sourced.</p>
+        <footer>
+            <div id="about">
+                <p>Location:<br>Baker's Corner, Seekonk, MA</p>
+                <p>Hours:<br><time>Tuesday to Saturday, 11am to 11pm</time></p>
+            </div>
+            <p><small>&copy; 2024 Black Goose Bistro</small></p>
+            <p>Visit us on social media!</p>
+            <ul>
+                <li><img src="icons/facebook.svg" alt="Facebook"></li>
+                <li><img src="icons/tiktok.svg" alt="TikTok"></li>
+                <li><img src="icons/instagram.svg" alt="Instagram"></li>
+            </ul>
+        </footer>
     </body>
 </html>
