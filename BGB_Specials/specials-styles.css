@@ -129,9 +129,11 @@ td:not(.day) {
 }
 #entertainment li::before {
     content: url(star-icon-1.png);
+    margin-right: .5em;
 }
 #entertainment li.fave::after {
     content: " (Fan Favorite)";
+    color: darkolivegreen;
 }
 
 /* PAGE FORMATTING STYLES */
