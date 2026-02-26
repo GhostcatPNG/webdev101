@@ -53,9 +53,13 @@ a:hover {
     color: #C700F2;
     background-color: white;
 }
+a:active, a:hover {
+    color: fuchsia;
+    background-color: #fff;
+}
 a:active {
     color: fuchsia;
-    background-color: white;
+    background-color: #fff;
 }
 a:visited {
     color: #937393;
@@ -85,7 +89,7 @@ td.day {
 tr:first-child {
     background-color: tomato;
 }
-tr:nth-of-type(even) {
+tr:nth-child(even) {
     background-color: wheat;
 }
 tr:nth-child(2n+3) {
