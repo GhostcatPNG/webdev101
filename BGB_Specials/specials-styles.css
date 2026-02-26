@@ -49,12 +49,8 @@ a {
 a:link {
     color: #993399;
 }
-a:hover {
+a:focus, a:hover {
     color: #C700F2;
-    background-color: white;
-}
-a:active, a:hover {
-    color: fuchsia;
     background-color: #fff;
 }
 a:active {
