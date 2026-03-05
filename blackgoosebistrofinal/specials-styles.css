@@ -34,10 +34,23 @@ form > p {
 }
 [name$="-name"] {
     background-color: salmon;
-}   
-
+}
+/* INFO */
+#info {
+    display: flex;
+    justify-content: center;
+}
+#info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#info li {
+    display: inline;
+    margin: 0 15px;
+}
 /* LINK STYLES */
-a {
+#info a {
     text-decoration: none;
     border: 1px solid white;
     background-color: rgb(255 255 255 / .25);
@@ -46,18 +59,18 @@ a {
     margin: .5rem;
     font-weight: bold; 
 }
-a:link {
+#info a:link {
     color: #993399;
 }
-a:focus, a:hover {
+#info a:focus, #info a:hover {
     color: #C700F2;
     background-color: #fff;
 }
-a:active {
+#info a:active {
     color: fuchsia;
     background-color: #fff;
 }
-a:visited {
+#info a:visited {
     color: #937393;
 }
 

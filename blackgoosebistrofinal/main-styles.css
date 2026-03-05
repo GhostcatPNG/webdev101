@@ -1,0 +1,78 @@
+body {
+    font-family: Georgia, serif;
+    line-height: 1.75;
+    margin: 0 15% 0;
+    background-color: #cdd7ae;
+    background-image: url(images/bullseye.png);
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+header {
+    margin-top: 0;
+    padding: 3em 1em 2em 1em;
+    text-align: center;
+    background-color: rgb(255 255 255 / 0.5);
+    background-image: url(images/goose_shadow.png), url(images/blackgoose.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 3em bottom, center;
+    background-size: auto, contain;
+}
+h1 {
+    font: 400 2.5rem "Julius Sans One", Verdana, sans-serif;
+    color: #993399;
+    text-shadow: .1em .1em .05em gainsboro;
+}
+
+h2 {
+    color: #d1633c;
+    font-size: 1em;
+}
+
+footer {  
+    border-top: 1px solid turquoise;
+    text-align: center;
+    margin-top: 2em;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+nav ul, footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li, footer li {
+    display: inline;
+    margin: 0 15px;
+}
+nav {
+    background-color: #467677;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+nav a {
+    color: #faf2e4;
+    text-decoration: none;
+}
+nav a:link {
+    color: #faf2e4;
+}
+nav a:focus, a:hover {
+    color: #d2cdc4;
+    background-color: #345859;
+}
+nav a:active {
+    color: #beb9b0;
+    background-color: #345859;
+}
+nav a:visited {
+    color: #a49d8f;
+}

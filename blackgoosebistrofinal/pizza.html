@@ -3,16 +3,27 @@
     <head>
         <meta charset="utf-8" >
         <title>Black Goose Bistro: Pizza-on-Demand</title>
-        <style type="text/css">
-            ol, ul { 
-            list-style-type: none;
-            }
-        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main-styles.css">
     </head>
     <body>
-        <h1>Black Goose Bistro | Pizza-on-Demand</h1>
-
+        <header>
+            <h1>Black Goose Bistro<br>&bull; Pizza-on-Demand &bull;</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="pizza.html">Pizza</a></li>
+                <li><a href="summermenu.html">Menu</a></li>
+                <li><a href="specials.html">Specials</a></li>
+            </ul>
+        </nav>
         <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+        
         <form action="http://www.blackgoosebistro.com/pizza.php" method="post">
             <fieldset>
                 <legend>Your Information</legend>
@@ -63,5 +74,18 @@
             </fieldset>
             <p><input type="submit" value="Bring me a pizza!"></p>
         </form>
+        <footer>
+            <div id="about">
+                <p>Location:<br>Baker's Corner, Seekonk, MA</p>
+                <p>Hours:<br><time>Tuesday to Saturday, 11am to 11pm</time></p>
+            </div>
+            <p><small>&copy; 2024 Black Goose Bistro</small></p>
+            <p>Visit us on social media!</p>
+            <ul>
+                <li><img src="icons/facebook.svg" alt="The Facebook logo: a white square with a blue lower-case F inside."></li>
+                <li><img src="icons/tiktok.svg" alt="The TikTok logo: a black square with a white music note inside."></li>
+                <li><img src="icons/instagram.svg" alt="The Instagram logo: an outline of a white square with two smaller circles inside in the shape of a camera lens and light."></li>
+            </ul>
+        </footer>
     </body>
 </html>
