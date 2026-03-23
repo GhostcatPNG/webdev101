@@ -10,6 +10,10 @@ body {
     background-color: #5BA4A4;
 }
 
+.main-container {
+    background-color: #FFF9E6;
+}
+
 /* HEADER */
 #header-container {
     margin-top: 0;
@@ -30,9 +34,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
+p {
+    color: #3B3B3B;
+}
+
 /* NAVIGATION */
 #main-nav {
-    background-color: #467677;
+    background-color: #ded5ba;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -53,25 +61,25 @@ body {
 }
 
 .nav-link a {
-    color: #FFF9E6;
+    color: #C06C48;
     text-decoration: none;
 }
 
 .nav-link a:link {
-    color: #FFF9E6;
+    color: #C06C48;
 }
 .nav-link a:focus, .nav-link a:hover {
-    color: #f4ecd4;
-    background-color: #345859;
+    color: #a95c3b;
+    background-color: #c4b997;
 }
 
 .nav-link a:active {
-    color: #ddd4b5;
-    background-color: #345859;
+    color: #d08767;
+    background-color: #c4b997;
 }
 
 .nav-link a:visited {
-    color: #d5ceb8;
+    color: #c97754;
 }
 
 /* ======= INDEX ======= */
