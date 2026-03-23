@@ -188,6 +188,34 @@ fieldset {
     padding: 15px;
 }
 
+#social-links {
+    width: 98%;
+    margin: auto;
+    padding: 15px;
+}
+
+#social-links a {
+    color: #C06C48;
+    text-decoration: none;
+}
+
+#social-links a:link {
+    color: #C06C48;
+}
+#social-links a:focus, #social-links a:hover {
+    color: #a95c3b;
+    background-color: #c4b997;
+}
+
+#social-links a:active {
+    color: #d08767;
+    background-color: #c4b997;
+}
+
+#social-links a:visited {
+    color: #c97754;
+}
+
 /* ======= FOOTER ======= */
 
 footer {
