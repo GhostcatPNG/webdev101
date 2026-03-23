@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15% 0;
+    background-color: #5BA4A4;
+}
+
+/* HEADER */
+#header-container {
+    margin-top: 0;
+    position: relative;
+    text-align: center;
+}
+
+.logo {
+    opacity: 0.15;
+    width: 12%;
+    height: auto;
+}
+
+.org-name {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* NAVIGATION */
+#main-nav {
+    background-color: #467677;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-link a {
+    color: #FFF9E6;
+    text-decoration: none;
+}
+
+.nav-link a:link {
+    color: #FFF9E6;
+}
+.nav-link a:focus, .nav-link a:hover {
+    color: #f4ecd4;
+    background-color: #345859;
+}
+
+.nav-link a:active {
+    color: #ddd4b5;
+    background-color: #345859;
+}
+
+.nav-link a:visited {
+    color: #d5ceb8;
+}
+
+/* ======= INDEX ======= */
+#featured-pet {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#featured-pet p {
+    flex: 1;
+}
+
+#featured-pet div {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* ======= ABOUT ======= */
+#team-section section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.team-member {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div.team-member p {
+    flex: 1;
+}
+
+div.team-member img {
+    max-width: 400px;
+    height: auto;
+}
+
+/* ======= ADOPT ======= */
+
+table.greyGridTable {
+    border: 2px solid #FFFFFF;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.greyGridTable td, table.greyGridTable th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 4px;
+}
+table.greyGridTable tbody td {
+    font-size: 13px;
+}
+table.greyGridTable td:nth-child(even) {
+    background: #EBEBEB;
+}
+table.greyGridTable thead {
+    background: #FFFFFF;
+    border-bottom: 4px solid #333333;
+}
+table.greyGridTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    border-left: 2px solid #333333;
+}
+table.greyGridTable thead th:first-child {
+    border-left: none;
+}
+
+table.greyGridTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    border-top: 4px solid #333333;
+}
+table.greyGridTable tfoot td {
+    font-size: 14px;
+}
