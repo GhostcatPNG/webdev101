@@ -129,8 +129,11 @@ table.greyGridTable td, table.greyGridTable th {
 table.greyGridTable tbody td {
     font-size: 13px;
 }
-table.greyGridTable td:nth-child(even) {
+table.greyGridTable tr:nth-child(odd) {
     background: #EBEBEB;
+}
+table.greyGridTable tr:nth-child(even) {
+    background: #bfbfbf;
 }
 table.greyGridTable thead {
     background: #FFFFFF;
