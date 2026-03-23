@@ -167,3 +167,15 @@ table.greyGridTable tfoot {
 table.greyGridTable tfoot td {
     font-size: 14px;
 }
+
+/* VOLUNTEER */
+
+ul {
+    list-style-type: none;
+}
+
+fieldset {
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+}
