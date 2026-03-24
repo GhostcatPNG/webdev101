@@ -133,7 +133,7 @@ h2 {
 	text-transform: uppercase;
 }
 #award {
-	position: fixed;
+	position: absolute;
 	top: 30px;
 	left: 50px;
 }
