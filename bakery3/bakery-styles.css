@@ -51,6 +51,17 @@ nav, footer {
 }
 nav ul {
 	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+nav ul li a {
+	display: block;
+	border: 1px solid;
+	border-radius: 6px;
+	padding: .5em 1em;
+	margin: .5em;
 }
 nav ul li a:link, nav ul li a:visited {
 	color: #F9AB33;
