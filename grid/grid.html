@@ -22,6 +22,10 @@
 			#layout {
 				margin-left: 5%;
 				margin-right: 5%;
+				display: grid;
+				grid-template-rows: 3em 20px [main-start] 150px auto 5em [main-end];
+				grid-template-columns: [main-start] 1fr [main-end] repeat(3, 150px);
+				column-gap: 20px;
 			}
 
 			/* VISUAL STYLES START HERE */
@@ -41,6 +45,12 @@
 			}
 
 			/* nav styles */
+			nav {
+				grid-row-start: 1;
+				grid-row-end: 2;
+				grid-column-start: 1;
+				grid-column-end: 5; /* or -1 */
+			}
 			nav, footer {
 				font-family: verdana, sans-serif;
 				background-color: #783F27;
@@ -80,6 +90,8 @@
 				padding: 1em;
 				border: double 4px #EADDC4;
 				border-radius: 25px;
+				grid-row: main-start / main-end;
+				grid-column: main-start / main-end;
 			}
 
 			/* misc styles */
@@ -90,11 +102,24 @@
 				/* clears browser styles for figures */
 			}
 
+			#figC {
+				grid-row: 3 / 4;
+				grid-column: span 1 / -1;
+			}
+			#figA {
+				grid-area: 3 / 2 / 4 / 3;
+			}
+			#figB {
+				grid-area: 3 / 3 / 4 / 4;
+			}
+
 			footer {
 				color: #EADDC4;
 				text-align: center;
 				font-size: .8em;
 				padding: .5em;
+				grid-row: 5 / span 1;
+				grid-column: 2 / -1;
 			}
 
 		</style>

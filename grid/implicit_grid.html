@@ -3,7 +3,12 @@
 	<head>
 		<title>Implicit Grid Example</title>
 		<style>
-			dl {} 
+			dl {
+				display: grid;
+				grid-auto-flow: column;
+				grid-template-rows: 3em 1fr 3em 1fr 3em 1fr;
+				gap: .5em;
+			}
 			dt, dd {
 				padding: .5em;
 				margin: 0;
