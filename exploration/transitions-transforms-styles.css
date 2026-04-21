@@ -39,5 +39,5 @@
 
 #card2:hover, #card2:focus {
     /* changes scale and rotation when the card is hovered */
-    transform: rotate(0.5deg) scale(1.05);
+    transform: rotate(360deg) scale(1.5);
 }
