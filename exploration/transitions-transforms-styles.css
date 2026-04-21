@@ -27,6 +27,11 @@
         box-shadow .1s ease-out;
 }
 
+#card2 {
+    transition:
+        transform .5s ease-out;
+}
+
 .card:hover, .card:focus {
     /* adds a shadow-y border around the card when hovered */
     box-shadow: 0px 0px 12px rgba(0,0,0,.3);
