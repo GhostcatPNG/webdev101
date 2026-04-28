@@ -1,4 +1,6 @@
-let firstLine = document.querySelector("p");
-firstLine = firstLine.innerText.split(" ").length;
-let readingTime = firstLine / 250;
-document.querySelector("p").append(" (Reading time: " + readingTime + " minutes)");
+let $P = document.querySelector("p");
+let $TEXT = $P.innerText;
+let $LIST = $TEXT.split(" ");
+let $WORDS = $LIST.length;
+let $TIME = $WORDS / 250;
+$P.innerText += " (Reading time: " + $TIME + " minutes)";
